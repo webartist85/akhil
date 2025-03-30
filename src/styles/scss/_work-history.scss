@@ -1,0 +1,31 @@
+.ant-drawer-content-wrapper{
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+  @media(max-width:475px){
+    width:100% !important;
+  }
+}
+.akhil-work-timeline{
+  &.ant-drawer-content{
+    .ant-drawer-header{
+        border-bottom:1px solid #403d3d;
+        margin-bottom:1rem;
+        .ant-drawer-close{
+            display:none;
+        }
+        .ant-drawer-title{
+          display:flex;
+          flex-wrap:wrap;
+          align-items:center;
+          justify-content:space-between;
+        }
+    }
+  }
+}
+.akhil-work-timeline{
+  &.light{
+    .ant-drawer-header{
+        border-bottom:1px solid #e5e5e5;
+    }
+  }
+}
